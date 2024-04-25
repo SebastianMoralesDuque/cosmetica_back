@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/atenciones")
-@CrossOrigin(origins = "http://172.16.16.22:5173")
+@CrossOrigin(origins = "*")
 public class ControladorGestionAtenciones {
 
     @Autowired

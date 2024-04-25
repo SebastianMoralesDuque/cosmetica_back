@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/medicos")
-@CrossOrigin(origins = "http://172.16.16.22:5173")
+@CrossOrigin(origins = "*")
 public class ControladorGestionMedicos {
 
     @Autowired

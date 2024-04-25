@@ -24,7 +24,7 @@ import java.util.Random;
 
 @RestController
 @RequestMapping("/usuarios")
-@CrossOrigin(origins = "http://172.16.16.22:5173")
+@CrossOrigin(origins = "*")
 public class ControladorGestionUsuarios {
 
     @Autowired
