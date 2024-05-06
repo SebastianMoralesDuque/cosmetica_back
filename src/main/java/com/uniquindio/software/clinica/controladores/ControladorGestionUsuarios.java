@@ -102,6 +102,7 @@ public class ControladorGestionUsuarios {
         response.put("message", "Inicio de sesión exitoso");
         response.put("userType", "admin");
         response.put("adminData", admin);
+        System.out.println("contrasenaAVerificar: " + contrasenaAVerificar);
         if (usuarioService.verificarContrasenaAdmin(correo, contrasenaAVerificar)) {
             return ResponseEntity.ok(response);
         } else {
